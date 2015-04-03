@@ -160,3 +160,7 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -- -5%
 bindsym XF86AudioMute exec ~/.i3/toggle-mute
 
 bindsym $mod+p exec i3lock
+
+exec --no-startup-id feh --bg-scale '/home/svetozar/Documents/visual/wallpapers/iKorbWB.jpg' 
+
+
