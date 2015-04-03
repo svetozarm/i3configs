@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install feh i3status
+sudo apt-get install feh i3status i3lock
 gsettings set org.nemo.desktop show-desktop-icons false
 
 mkdir ~/.i3

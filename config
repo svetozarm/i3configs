@@ -157,3 +157,5 @@ for_window [class="Google-chrome" title="Google Chrome"] border none
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -- -5%
 bindsym XF86AudioMute exec ~/.i3/toggle-mute
+
+bindsym $mod+p exec i3lock
