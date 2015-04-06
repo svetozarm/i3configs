@@ -69,6 +69,7 @@ bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
+bindsym $mod+x move workspace to output right
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -162,5 +163,3 @@ bindsym XF86AudioMute exec ~/.i3/toggle-mute
 bindsym $mod+p exec i3lock
 
 exec --no-startup-id feh --bg-scale '/home/svetozar/Documents/visual/wallpapers/iKorbWB.jpg' 
-
-
