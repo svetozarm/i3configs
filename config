@@ -163,3 +163,4 @@ bindsym XF86AudioMute exec ~/.i3/toggle-mute
 bindsym $mod+p exec i3lock
 
 exec --no-startup-id feh --bg-scale '/home/svetozar/Documents/visual/wallpapers/iKorbWB.jpg' 
+exec --no-startup-id nm-applet
