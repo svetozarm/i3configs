@@ -10,4 +10,4 @@ ln -s `pwd`/config ~/.i3/config
 ln -s `pwd`/i3status.conf ~/.i3status.conf
 cp toggle-mute ~/.i3/
 
-echo "alias scr_home=\"xrandr --output HDMI-1-0 --auto --right-of LVDS-1-0\"" >> ~/.bashrc
+echo "alias scr_home=\"xrandr --output HDMI-1-0 --auto --right-of LVDS-1-0; sh ~/.fehbg\"" >> ~/.bashrc
