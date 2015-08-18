@@ -1,12 +1,14 @@
 #!/bin/bash
-sudo apt-get install feh i3status i3lock
-gsettings set org.nemo.desktop show-desktop-icons false
+#sudo apt-get install feh i3status i3lock python-pip
+#sudo pip install udiskie
+#gsettings set org.nemo.desktop show-desktop-icons false
 
-sudo unzip fonts/font-awesome-4.3.0.zip -d /usr/share/fonts 
+#sudo unzip fonts/font-awesome-4.3.0.zip -d /usr/share/fonts 
 
 mkdir ~/.i3
 rm ~/.i3/config
 ln -s `pwd`/config ~/.i3/config
+ln -s `pwd`/lock.sh ~/.i3/lock.sh
 ln -s `pwd`/i3status.conf ~/.i3status.conf
 cp toggle-mute ~/.i3/
 
